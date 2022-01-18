@@ -1,9 +1,6 @@
 // import preschoolAdd from './preschoolAdd';
 const preschoolAdd = require('./preschoolAdd');
-
-const check = (result, expected, testCaseDescription) => {
-    console.log(`${result === expected ? 'SUCCESS' : 'FAILED'} :: Result: ${result} :: Expected: ${expected} :: ${testCaseDescription}`);
-}
+const check = require('./myTestLib');
 
 check(preschoolAdd(2,4),6,'Two integers under 10, expecting 6');
 check(preschoolAdd(1,10),'sok','Result over 10, expecting the string SOK');
