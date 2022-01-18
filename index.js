@@ -7,4 +7,6 @@ const preschoolAdd = (num1, num2) => {
 }
 
 console.log('hello world');
-console.log(preschoolAdd(112,-109));
+console.log(preschoolAdd(1,2)); // should return 3
+console.log(preschoolAdd(1,10)); // should return 'sok'
+console.log(preschoolAdd(5,3.8)); // should return 8
