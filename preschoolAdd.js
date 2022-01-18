@@ -6,8 +6,5 @@ const preschoolAdd = (num1, num2) => {
     return Math.floor(number);
 }
 
-console.log('hello world');
-console.log(preschoolAdd(1,2)); // should return 3
-console.log(preschoolAdd(1,10)); // should return 'sok'
-console.log(preschoolAdd(5,3.8)); // should return 8
-console.log(preschoolAdd(5,-9)); // should return 0
+// export default preschoolAdd;
+module.exports = preschoolAdd; //same thing with older syntax, oh and also it works. :)
